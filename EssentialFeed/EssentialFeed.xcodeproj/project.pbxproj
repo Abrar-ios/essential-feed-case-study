@@ -92,6 +92,7 @@
 		75FA63BC2832ABC000AE7A88 /* HTTPClientSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA63BB2832ABC000AE7A88 /* HTTPClientSpy.swift */; };
 		75FA63BF2832B1B700AE7A88 /* HTTPURLResponse+StatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA63BE2832B1B700AE7A88 /* HTTPURLResponse+StatusCode.swift */; };
 		75FA63C12832B25F00AE7A88 /* URLProtocolStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA63C02832B25F00AE7A88 /* URLProtocolStub.swift */; };
+		75FA63C32832B80E00AE7A88 /* LocalFeedImageDataLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA63C22832B80E00AE7A88 /* LocalFeedImageDataLoaderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -215,6 +216,7 @@
 		75FA63BB2832ABC000AE7A88 /* HTTPClientSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientSpy.swift; sourceTree = "<group>"; };
 		75FA63BE2832B1B700AE7A88 /* HTTPURLResponse+StatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HTTPURLResponse+StatusCode.swift"; sourceTree = "<group>"; };
 		75FA63C02832B25F00AE7A88 /* URLProtocolStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProtocolStub.swift; sourceTree = "<group>"; };
+		75FA63C22832B80E00AE7A88 /* LocalFeedImageDataLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedImageDataLoaderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -431,6 +433,7 @@
 				086BE480223270A3004CDC26 /* LoadFeedFromCacheUseCaseTests.swift */,
 				081C0DAE22491A2400AC754E /* ValidateFeedCacheUseCaseTests.swift */,
 				08285AEE228BF7E3000A8987 /* CoreDataFeedStoreTests.swift */,
+				75FA63C22832B80E00AE7A88 /* LocalFeedImageDataLoaderTests.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -877,6 +880,7 @@
 				087546922272381700542C32 /* XCTestCase+FailableInsertFeedStoreSpecs.swift in Sources */,
 				087148BE232BEDFD00D6BE1A /* FeedLocalizationTests.swift in Sources */,
 				082DB86421F763F900A71F69 /* URLSessionHTTPClientTests.swift in Sources */,
+				75FA63C32832B80E00AE7A88 /* LocalFeedImageDataLoaderTests.swift in Sources */,
 				75FA63BC2832ABC000AE7A88 /* HTTPClientSpy.swift in Sources */,
 				086BE4842232725E004CDC26 /* FeedStoreSpy.swift in Sources */,
 				081C0DB322491EEF00AC754E /* SharedTestHelpers.swift in Sources */,
