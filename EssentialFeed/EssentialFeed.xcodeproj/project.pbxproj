@@ -89,6 +89,7 @@
 		75052E482805B18600776BB4 /* FeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FC5AA922D5F47900148E12 /* FeedImageDataLoader.swift */; };
 		75052E4A2805B22C00776BB4 /* RemoteFeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75052E492805B22C00776BB4 /* RemoteFeedImageDataLoader.swift */; };
 		75052E4C2805B27B00776BB4 /* LoadFeedImageDataFromRemoteUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75052E4B2805B27B00776BB4 /* LoadFeedImageDataFromRemoteUseCaseTests.swift */; };
+		75C85FE628369CD50045FB9F /* FeedStore2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75C85FE428369CD40045FB9F /* FeedStore2.xcdatamodeld */; };
 		75E89C99283413AB00E8B61E /* FeedImageDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E89C98283413AB00E8B61E /* FeedImageDataStore.swift */; };
 		75E89C9B283413B800E8B61E /* LocalFeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E89C9A283413B800E8B61E /* LocalFeedImageDataLoader.swift */; };
 		75E89C9D2836268C00E8B61E /* FeedImageDataStoreSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E89C9C2836268C00E8B61E /* FeedImageDataStoreSpy.swift */; };
@@ -218,6 +219,8 @@
 		08FC5AA922D5F47900148E12 /* FeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoader.swift; sourceTree = "<group>"; };
 		75052E492805B22C00776BB4 /* RemoteFeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedImageDataLoader.swift; sourceTree = "<group>"; };
 		75052E4B2805B27B00776BB4 /* LoadFeedImageDataFromRemoteUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedImageDataFromRemoteUseCaseTests.swift; sourceTree = "<group>"; };
+		75C85FE528369CD50045FB9F /* FeedStore2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FeedStore2.xcdatamodel; sourceTree = "<group>"; };
+		75C85FE72836A4E50045FB9F /* FeedStore 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "FeedStore 2.xcdatamodel"; sourceTree = "<group>"; };
 		75E89C98283413AB00E8B61E /* FeedImageDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataStore.swift; sourceTree = "<group>"; };
 		75E89C9A283413B800E8B61E /* LocalFeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedImageDataLoader.swift; sourceTree = "<group>"; };
 		75E89C9C2836268C00E8B61E /* FeedImageDataStoreSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataStoreSpy.swift; sourceTree = "<group>"; };
@@ -357,6 +360,7 @@
 				08285AFC228C1843000A8987 /* ManagedCache.swift */,
 				08285AFE228C1874000A8987 /* ManagedFeedImage.swift */,
 				08285AF2228BFAFF000A8987 /* FeedStore.xcdatamodeld */,
+				75C85FE428369CD40045FB9F /* FeedStore2.xcdatamodeld */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -867,6 +871,7 @@
 				089C40DE22170F2300DE552E /* FeedStore.swift in Sources */,
 				089C40DC22170EC500DE552E /* LocalFeedLoader.swift in Sources */,
 				08C0880C21E4EED600ACFB30 /* HTTPClient.swift in Sources */,
+				75C85FE628369CD50045FB9F /* FeedStore2.xcdatamodeld in Sources */,
 				080EDF0C21B6DAE800813479 /* FeedImage.swift in Sources */,
 				75E89C99283413AB00E8B61E /* FeedImageDataStore.swift in Sources */,
 				087148B6232BEAAF00D6BE1A /* FeedPresenter.swift in Sources */,
@@ -1490,10 +1495,21 @@
 		08285AF2228BFAFF000A8987 /* FeedStore.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				75C85FE72836A4E50045FB9F /* FeedStore 2.xcdatamodel */,
 				08285AF3228BFAFF000A8987 /* FeedStore.xcdatamodel */,
 			);
 			currentVersion = 08285AF3228BFAFF000A8987 /* FeedStore.xcdatamodel */;
 			path = FeedStore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		75C85FE428369CD40045FB9F /* FeedStore2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				75C85FE528369CD50045FB9F /* FeedStore2.xcdatamodel */,
+			);
+			currentVersion = 75C85FE528369CD50045FB9F /* FeedStore2.xcdatamodel */;
+			path = FeedStore2.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
